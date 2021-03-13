@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Frames</title>
+</head>
+
+<!--Frames must be in outside of body-->
+<frameset rows="40%,*,20%">
+	<frame src="frames/frame1.html">
+
+		<frameset cols="55%,50%">
+			<frame src="frames/frame2.html">
+			<frame src="frames/frame3.html">
+		</frameset>
+		<noframes> does not support </noframes>
+		<frame src="https://brwa.xyz">
+</frameset>
+
+</html>
